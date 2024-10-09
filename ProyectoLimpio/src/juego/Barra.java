@@ -29,6 +29,7 @@ public class Barra {
 	public void moverDerecha(Entorno e) {
 		//if(this.x + this.ancho/2 < e.ancho())
 			this.x += this.desplazamiento; 
+		
 	}
 	
 	public boolean hayColisionDerecha(Entorno e){
